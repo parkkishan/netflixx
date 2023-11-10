@@ -1,0 +1,575 @@
+body{
+    background-image: url(net-bg.jpg);
+    box-shadow: 0px 750px 900px 400px rgba(0,0,0,0.75);
+    box-shadow: inset to left, 200px, 300px, 500px, 600px, black;
+    overflow-x: hidden;
+
+
+}
+
+#netflix-logo{
+    position: relative;
+    height: 120px;
+    left: 6%;
+}
+#dropdow{
+    display: inline;
+    position: relative;
+    height: 38px;
+    width: 130px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 6px;
+    top: -107px;
+    border-color: rgb(197, 197, 197);
+    left: 76%;
+}
+.Navbar li button{
+    position: absolute;
+    height: 39px;
+    cursor: pointer;
+    width: 87px;
+    top: 6.6%;
+    left: 87%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 7, 7);
+    color: rgb(255, 255, 255);
+    
+}
+.Navbar li button:hover{
+  transition: 1s;
+  background-color: rgb(199, 5, 5);
+}
+
+@media only screen and (max-width:1200px) {
+    /* For tablets: */
+    body{
+        background-image: 100px;
+    }
+    #dropdowns{
+      width: 80%;
+      padding: 0;
+    }
+    #dropdow{
+      width: 20%;
+      top: -97px;
+    }
+    #login{
+        left: 80%;
+        width: 16%;
+        top: 5%;
+        color: white;
+    }
+    #netflix-logo{
+        left: -1%;
+        height: 99px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  #navbar1{
+    position: absolute;
+    height: 40%;
+    width: 115%;
+    left: -6%;
+    top: -78px;
+    z-index: -1;
+    filter: blur(70px);
+
+  }
+  /* #navbar2{
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    left: 650.3px;
+    transform: rotate(90deg);
+    top: -78px;
+    z-index: -1;
+    filter: blur(30px);
+    background-color: black;
+
+  } */
+
+  .main-containt h1{
+    position: absolute;
+    color: white;
+    top: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    left: 15%;
+  }
+  @media only screen and (max-width: 400px) {
+    .main-containt h1{
+      position: absolute;
+      font-size: 30px;
+      top: 28%;
+      
+    }
+    #main{
+      position: absolute;
+      font-size: 20px;
+      top: 39%;
+
+    }
+  } 
+
+    @media only screen and (max-width: 400px) {
+    #main-txt{
+      position: absolute;
+      font-size: 20px;
+      top: 43%;
+      left: 8%;
+
+    }
+  } 
+    
+    
+  
+  h4{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    left: 40%;
+    top: 43%;
+
+  }
+  .main-containt h2{
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, ;
+    font-size: 25px;
+    left: 35%;
+    top: 59%;
+  }
+  h3{
+    position: absolute;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    left: 20%;
+    top: 65%;
+
+  }
+  #email-input{
+    position: absolute;
+    height: 9%;
+    top: 78%;
+    left: 22%;
+    width: 32%;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+    background: transparent;
+  }
+
+  .main-containt button{
+    position: absolute;
+    height: 10%;
+    top: 78%;
+    left: 56%;
+    border-radius: 9px;
+    width: 12%;
+    text-align: center;
+    background-color: rgb(219, 6, 6);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+
+  }
+  .main-containt button:hover{
+    background-color: rgb(165, 24, 24);
+    transition: 1s;
+  }
+  ::placeholder{
+    position: absolute;
+    font-size: 20px;
+    top: 18px;
+    left: 9px;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    /* For tablets: */
+    body{
+        background-image: 100px;
+    }
+    #dropdow{
+        position: absolute;
+        top: 5%;
+        left: 55%;
+    }
+    #text{
+        position: absolute;
+        width: 80;
+        height: 90%;
+    }
+    #get{
+        width: 200px;
+    }
+   
+   
+    #login{
+        left: 80%;
+        width: 16%;
+        top: 5%;
+        color: white;
+    }
+    #netflix-logo{
+        left: 1%;
+        top: -10px;
+        height: 100px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    /* For mobile phones: */
+    body{
+        overflow-x: hidden;
+    }
+    #login{
+        font-size: 13px;
+        top: 35px;
+        left: 240px;
+        width: 60px;
+    }
+    #dropdow{
+        font-size: 13px;
+        top: 36px;
+        left: 156px;
+    }
+    #netflix-logo{
+        height: 90px;
+        top: 3px;
+        left: -26px;
+    }
+    #text{
+        font-size: 30px;
+        left: 30px;
+    }
+    #prices{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+  #explain{
+    display: none;
+  }
+  #prices{
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+  }
+  #text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 30px;
+  }
+  #main-txt{
+    font-size: 20px;
+      top: 240px;
+      left: 29px;
+  }
+  #email-input{
+      top: 400px;
+      height: 60px;
+      width: 200px;
+      left: 30px;
+  }
+  #get{
+      top: 480px;
+      height: 60px;
+      width: 210px;
+      left: 30px;
+  
+  }
+  }
+
+#line1{
+  position: absolute;
+  height: 2%;
+  width: 102%;
+  left: 0;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  top: 110%;
+}
+
+.text-ele h1{
+  position: absolute;
+  font-size: 50px;
+  top: 134%;
+  color: white;
+  left: 200px;
+}
+
+#bg{
+  position: absolute;
+  height: 400%;
+  top: 112%;
+  left: 0;
+  z-index: -1;
+  border: none;
+  width: 100%;
+  background-color: black;
+}
+.text-ele h2{
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 148%;
+  color: white;
+  left: 200px;
+}
+#laptop-bg{
+  position: absolute;
+  left: 55%;
+  height: 60%;
+  top: 120%;
+}
+#netflixintro{
+  position: absolute;
+  height: 30%;
+  left: 61%;
+  top: 133.8%;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+  .text-ele h1{
+    position: absolute;
+    font-size: 25px;
+    left: 19%;
+    top: 120%;
+  }
+  .text-ele h2{
+    position: absolute;
+    font-size: 12px;
+    left: 16%;
+    top: 128%;
+  }
+  #laptop-bg{
+    position: absolute;
+    left: 8%;
+    top: 140%;
+    height: 210px;
+
+  }
+  #line1{
+    position: absolute;
+    width: 115%;
+  }
+  #line2{
+    position: absolute;
+    width: 140%;
+  }
+  #netflixintro{
+    position: relative;
+    left: 67px;
+    top: 635px;
+    height: 100px;
+
+  }
+  #bg{
+    position: absolute;
+    width: 200%;
+  }
+  #mobile{
+    position: absolute;
+    height: 100px;
+  }
+} 
+
+
+
+
+#line2{
+  position: absolute;
+  height: 2%;
+  width: 102%;
+  left: 0;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  top: 193%;
+}
+
+
+#mobile{
+  position: absolute;
+  height: 54%;
+  left: 14%;
+  top: 210%;
+  border-radius: 22px;
+}
+
+#download-movie-effect{
+  position: absolute;
+  height: 15%;
+  border-radius: 10px;
+  left: 21%;
+  width: 20%;
+  background-color: black;
+  top: 243%;
+}
+.download-part h2{
+  position: absolute;
+  left: 27%;
+  font-size: 20px;
+  top: 246%;
+  color: white;
+
+}
+#stranger-things-poster{
+  position: absolute;
+  height: 11%;
+  z-index: 2;
+  left: 22.2%;
+  top: 246%;
+}
+
+.download-part h3{
+  position: absolute;
+  position: absolute;
+  left: 27%;
+  font-size: 18px;
+  top: 249%;
+  color: rgb(6, 53, 207);
+
+}
+
+#downloading{
+  position: absolute;
+  top: 250%;
+  border-radius: 20px;
+  left: 38%;
+  background-color: black;
+  height: 25px;
+}
+
+.download-part h1{
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.8rem;
+  left: 53%;
+  top: 215%;
+  color: white;
+}
+
+.download-part p{
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  left: 53%;
+  top: 235%;
+}
+
+#line3{
+  position: absolute;
+  height: 2%;
+  width: 102%;
+  left: 0;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  top: 279%;
+  
+
+}
+
+#text1{
+  position: absolute;
+  top: 306%;
+  left: 12.6%;
+  font-size: 57px;
+  color: white;
+}
+
+#text2{
+  position: absolute;
+  top: 319%;
+  left: 13%;
+  font-size: 30px;
+  color: white;
+}
+
+#apple{
+  position: absolute;
+  top: 300%;
+  left: 55%;
+  height: 365px;
+}
+
+#bateman{
+  position: absolute;
+  top: 307%;
+  left: 63.4%;
+  height: 140px;
+  border-radius: 5px;
+}
+
+
+#line4{
+  position: absolute;
+  height: 2%;
+  width: 102%;
+  left: 0;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  top: 368%;
+  
+
+}
+
+#children{
+  position: absolute;
+  top: 387%;
+  left: 6%;
+  height: 450px;
+}
+
+.children-sec h1{
+  position: absolute;
+  top: 400%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  left: 52.8%;
+  color: white;
+
+}
+
+.children-sec p{
+  position: absolute;
+  top: 423%;
+  font-family: sans-serif;
+  font-size: 23px;
+  left: 53%;
+  color: white;
+
+}
+
+#line5{
+  position: absolute;
+  height: 2%;
+  width: 102%;
+  left: 0;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  top: 465%;
+}
+
+#button{
+  position: absolute;
+  height: 80px;
+  width: 300px;
+}
